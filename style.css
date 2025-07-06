@@ -96,18 +96,17 @@
         }
 
         .logo {
-            font-size: 1.8rem;
+            font-size: 1.8  rem;
             font-weight: 900;
             color: var(--white-color);
             display: flex;
             align-items: center;
-        }
-        .site-logo {
             width: 70px;
             height: 70px;
             border-radius: 50%;
             margin-right: 0.5rem;
-        }   
+        }
+        
         .logo i {
             color: var(--primary-color);
             margin-right: 0.5rem;
