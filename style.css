@@ -95,12 +95,6 @@
             align-items: center;
         }
 
-        .logo {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            margin-right: 0.5rem;
-        }
         
         .logo i {
             color: var(--primary-color);
