@@ -1,0 +1,17 @@
+# robots.txt for your website
+# This file tells web crawlers how to crawl your site.
+
+User-agent: *
+# The asterisk (*) means this section applies to all web crawlers.
+
+# Disallow crawling of specific directories or files.
+# Since this is a single-page site, there's not much to disallow.
+# As your site grows, you might add things like /admin/ or /private/.
+
+# It's good practice to allow crawlers to access CSS and JS to render the page correctly.
+Allow: /*.css$
+Allow: /*.js$
+
+# Location of the sitemap file.
+# IMPORTANT: Replace "https://www.yourdomain.com" with your actual domain.
+Sitemap: https://www.yourdomain.com/sitemap.xml
