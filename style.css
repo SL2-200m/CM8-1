@@ -313,9 +313,9 @@
             border-radius: 5px;
             margin-bottom: 1.5rem;
         }
-        .product-description a {
+        /* .product-description a {
             color: #0056b3;
-        }
+        } */
 
         .product-description h2 {
             font-size: 1.5rem;
@@ -422,8 +422,8 @@
             font-size: 1.1rem;
             position: relative;
         }
-        .footer-column a {
-            color: #0056b3;
+        /* .footer-column a {
+            color: #0056b3; */
         .footer-column h4::after {
             content: '';
             position: absolute;
