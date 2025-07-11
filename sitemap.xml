@@ -1,36 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <!-- Homepage URL -->
-    <url>
-        <!-- The full URL of the page. This is the only mandatory tag. -->
-        <!-- IMPORTANT: Replace with your actual domain name. -->
-        <loc>https://www.yourdomain.com/</loc>
-
-        <!-- The date the file was last modified (YYYY-MM-DD format). -->
-        <lastmod>2024-05-21</lastmod>
-
-        <!-- How frequently the page is likely to change. -->
-        <!-- Options: always, hourly, daily, weekly, monthly, yearly, never. -->
-        <changefreq>weekly</changefreq>
-
-        <!-- The priority of this URL relative to other URLs on your site (0.0 to 1.0). -->
-        <!-- Since this is the main page, its priority is highest. -->
-        <priority>1.0</priority>
-    </url>
-
-    <!-- 
-    
-    If you add more pages to your site in the future, 
-    add a new <url> block for each one. For example:
-
-    <url>
-        <loc>https://www.yourdomain.com/about.html</loc>
-        <lastmod>2024-05-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    -->
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://pressvillelibrary.com/</loc>
+</url>
+<url>
+  <loc>http://pressvillelibrary.com/cdn-cgi/l/email-protection</loc>
+</url>
 </urlset>
