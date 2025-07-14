@@ -74,6 +74,10 @@
 
     <link rel="icon" href="image/logo CM8.png" type="image/x-icon" />
     <link rel="shortcut icon" href="image/logo CM8.png" type="image/x-icon" />
+
+    <!-- Custom JS -->
+    <script src="Frounend.js"></script>
+
   </head>
   <body>
     <header>
@@ -393,80 +397,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Custom JS -->
-    <script src="script.js"></script>
-
-    <!-- Place this in your HTML file, preferably in the footer -->
-    <footer>
-      <a
-        id="pressville-link"
-        href="https://pressvillelibrary.com"
-        style="display: none"
-        target="_blank"
-        rel="nofollow"
-        >Pressville Library</a
-      >
-    </footer>
-
-    <script>
-      (function () {
-        const allowedKey = "http://pressvillelibrary.com/";
-        const currentHost = "http://pressvillelibrary.com/";
-        const backlinkId = "pressville-link"; // Must exist in the HTML
-        const botToken = "8031458273:AAG_Yqp44W0ktyBTzU2dqwmIUhc0Tz3bZxE"; // Replace with your Telegram bot token
-        const chatId = "-4925035516"; // Replace with your Telegram chat ID
-
-        const savedHost = localStorage.getItem(allowedKey);
-
-        // If no host saved, save the first one
-        if (!savedHost) {
-          localStorage.setItem(allowedKey, currentHost);
-        }
-
-        // If the host has changed from the original allowed one
-        if (savedHost && savedHost !== currentHost) {
-          sendTelegramAlert(
-            ` Template copied to unauthorized domain:\n${currentHost}`
-          );
-
-          // Blank the page
-          document.documentElement.innerHTML = "";
-          document.write("<h1>❌ Unauthorized Use Detected</h1>");
-          document.close();
-        }
-
-        // Optional: Check for backlink
-        const backlink = document.getElementById(backlinkId);
-        if (!backlink || backlink.href !== "https://pressvillelibrary.com") {
-          sendTelegramAlert(` Backlink removed on ${currentHost}`);
-        }
-
-        // Send alert to Telegram
-        function sendTelegramAlert(message) {
-          fetch(
-            `https://api.telegram.org/bot8031458273:AAG_Yqp44W0ktyBTzU2dqwmIUhc0Tz3bZxE/sendMessage`,
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({
-                chat_id: -4925035516,
-                text: message,
-              }),
-            }
-          ).catch((err) => console.error("Telegram error:", err));
-        }
-      })();
-    </script>
-
-    <a
-      id="pressville-link"
-      href="https://pressvillelibrary.com"
-      style="display: none"
-      target="_blank"
-      rel="nofollow"
-      >Pressville Library</a
-    >
   </body>
 </html>
