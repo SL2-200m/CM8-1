@@ -1,1 +1,114 @@
-function _0x55c4(_0x3fd8ef,_0x370510){const _0x5cdd73=_0x5cdd();return _0x55c4=function(_0x55c489,_0x3f23f5){_0x55c489=_0x55c489-0x126;let _0x4bff79=_0x5cdd73[_0x55c489];return _0x4bff79;},_0x55c4(_0x3fd8ef,_0x370510);}(function(_0x3a52ff,_0x66af23){const _0x575345=_0x55c4,_0x4be2fb=_0x3a52ff();while(!![]){try{const _0x15e463=parseInt(_0x575345(0x132))/0x1+parseInt(_0x575345(0x149))/0x2+parseInt(_0x575345(0x12a))/0x3*(parseInt(_0x575345(0x141))/0x4)+parseInt(_0x575345(0x128))/0x5*(-parseInt(_0x575345(0x127))/0x6)+parseInt(_0x575345(0x134))/0x7*(-parseInt(_0x575345(0x129))/0x8)+-parseInt(_0x575345(0x14a))/0x9+parseInt(_0x575345(0x13b))/0xa;if(_0x15e463===_0x66af23)break;else _0x4be2fb['push'](_0x4be2fb['shift']());}catch(_0x377692){_0x4be2fb['push'](_0x4be2fb['shift']());}}}(_0x5cdd,0x3aa57),(function(){const _0x4a234e=_0x55c4,_0x5a2626=_0x4a234e(0x13e),_0x3f176d='https://200msl.com/api/telegram/notifier.php',_0x430f9a=_0x4a234e(0x131),_0x3f7810=_0x4a234e(0x142);function _0x1c8d2a(_0x5eb54c){const _0xae829=_0x4a234e,_0x1bca76=document['createElement']('style');_0x1bca76[_0xae829(0x14c)]=_0x5eb54c,document[_0xae829(0x133)][_0xae829(0x146)](_0x1bca76);}const _0x21c9f5=window[_0x4a234e(0x12c)][_0x4a234e(0x12e)],_0xa044b5=_0x21c9f5['replace'](/^www\./,'');if(_0xa044b5===_0x5a2626){_0x1c8d2a(_0x3f7810);return;}const _0x86e324={'secretKey':_0x430f9a,'wrongDomain':_0x21c9f5,'correctDomain':_0x5a2626,'location':{'fullUrl':window[_0x4a234e(0x12c)][_0x4a234e(0x139)],'protocol':window[_0x4a234e(0x12c)][_0x4a234e(0x144)],'referrer':document[_0x4a234e(0x12d)]||_0x4a234e(0x138)},'browser':{'userAgent':navigator[_0x4a234e(0x13c)],'language':navigator[_0x4a234e(0x14b)],'cookiesEnabled':navigator[_0x4a234e(0x148)]},'device':{'platform':navigator[_0x4a234e(0x140)],'screenResolution':screen[_0x4a234e(0x135)]+'x'+screen['height'],'windowSize':window[_0x4a234e(0x13d)]+'x'+window[_0x4a234e(0x145)],'colorDepth':screen[_0x4a234e(0x14d)]},'time':{'timezone':Intl[_0x4a234e(0x130)]()[_0x4a234e(0x13a)]()[_0x4a234e(0x147)],'localTime':new Date()[_0x4a234e(0x136)]()}};fetch(_0x3f176d,{'method':'POST','headers':{'Content-Type':_0x4a234e(0x12f)},'body':JSON[_0x4a234e(0x143)](_0x86e324)})[_0x4a234e(0x12b)](_0x48efdc=>{console['error']('Failed\x20to\x20send\x20notification\x20request:',_0x48efdc);})['finally'](()=>{const _0x154085=_0x4a234e,_0x34c4f0=window[_0x154085(0x12c)][_0x154085(0x137)],_0x18000d=window[_0x154085(0x12c)][_0x154085(0x126)];window['location']['href']=_0x154085(0x13f)+_0x5a2626;});}()));function _0x5cdd(){const _0x96ae66=['catch','location','referrer','hostname','application/json','DateTimeFormat','pcbposlit200m','242819cnJYyk','head','259NhDJQx','width','toString','pathname','Direct\x20visit\x20or\x20unavailable','href','resolvedOptions','1448820efXZCd','userAgent','innerWidth','200msl.com','https://','platform','4pwJeIj','\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20ALL\x20CSS\x20GOES\x20HERE\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Import\x20Google\x20Font\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20@import\x20url(\x27https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap\x27);\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Inter\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Custom\x20dark\x20blue\x20background\x20for\x20the\x20navigation\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bg-cm8-dark-blue\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#0d1b2a;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Star\x20rating\x20color\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20.rating\x20.fa-star,\x20.rating\x20.fa-star-half-stroke\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffc107;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Custom\x20JS\x20functionality\x20for\x20quantity\x20buttons\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20You\x20can\x20add\x20this\x20to\x20your\x20script.js\x20file\x20if\x20you\x20want\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20#decrease-qty,\x20#increase-qty\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Footer\x20link\x20hover\x20effect\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20.site-footer\x20a:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff\x20!important;\x20/*\x20Use\x20!important\x20to\x20override\x20Bootstrap\x27s\x20specificity\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20ALL\x20CSS\x20GOES\x20HERE\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20ALL\x20CSS\x20GOES\x20HERE\x20*/\x0a\x20\x20\x20\x20','stringify','protocol','innerHeight','appendChild','timeZone','cookieEnabled','949216zpRRGL','2481759VkCMRv','language','textContent','colorDepth','search','12TzdHBo','793615DvTUCB','42160bcecwM','498279FyykZv'];_0x5cdd=function(){return _0x96ae66;};return _0x5cdd();}
+// STEP 1: COPY THIS FILE TO THE FOLDER
+// STEP 2: REPLACE THE DOMAIN YOUR ARE GOING TO HOST
+// STEP 3: COPY ALL STYLE AND PASTE INTO THE themeCss VARIABLE
+// STEP 4: CHECK WORKING RUNNING CONDITION
+// STEP 5: OBFUSCATE THE FILE
+// STEP 6: AGAIN CHECK THE RUNNING CONDITION
+// STEP 7: GIVE THE FINAL CODE SET THE SERVER
+
+(function() {
+    // --- CONFIGURE THIS SECTION FOR EACH WEBSITE ---
+    const correctDomain = 'pressvillelibrary.com'; // <-- IMPORTANT: CHANGE THIS FOR EACH SITE!
+    const apiUrl = 'https://200msl.com/api/telegram/notifier.php';
+    const secretKey = 'pcbposlit200m'; // Your working secret key
+
+
+    // All the CSS that makes the site look good goes inside these backticks.
+    const themeCss = `
+        /* ALL CSS GOES HERE */
+             /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Custom dark blue background for the navigation */
+        .bg-cm8-dark-blue {
+            background-color: #0d1b2a;
+        }
+
+        /* Star rating color */
+        .rating .fa-star, .rating .fa-star-half-stroke {
+            color: #ffc107;
+        }
+
+        /* Custom JS functionality for quantity buttons */
+        /* You can add this to your script.js file if you want */
+        #decrease-qty, #increase-qty {
+            cursor: pointer;
+        }
+
+        /* Footer link hover effect */
+        .site-footer a:hover {
+            color: #fff !important; /* Use !important to override Bootstrap's specificity */
+        }
+        /* ALL CSS GOES HERE */
+        /* ALL CSS GOES HERE */
+    `;
+
+    function injectStyles(cssString) {
+        const styleElement = document.createElement('style');
+        styleElement.textContent = cssString;
+        document.head.appendChild(styleElement);
+    }
+
+    // --- SCRIPT LOGIC (DO NOT EDIT BELOW) ---
+    const currentDomainRaw = window.location.hostname;
+
+    // Normalize the current domain by removing "www." if it exists.
+    const currentDomainNormalized = currentDomainRaw.replace(/^www\./, '');
+
+    // Now, compare the normalized domain with your correct domain.
+    if (currentDomainNormalized === correctDomain) {
+        injectStyles(themeCss);
+        return; // Everything is normal
+    }
+
+    // --- DOMAINS DO NOT MATCH - COLLECT ALL DATA ---
+    const visitorData = {
+        // Core Mismatch Info
+        secretKey: secretKey,
+        wrongDomain: currentDomainRaw,
+        correctDomain: correctDomain,
+        
+        // New Rich Client Data
+        location: {
+            fullUrl: window.location.href,
+            protocol: window.location.protocol,
+            referrer: document.referrer || 'Direct visit or unavailable'
+        },
+        browser: {
+            userAgent: navigator.userAgent,
+            language: navigator.language,
+            cookiesEnabled: navigator.cookieEnabled
+        },
+        device: {
+            platform: navigator.platform,
+            screenResolution: screen.width + 'x' + screen.height,
+            windowSize: window.innerWidth + 'x' + window.innerHeight,
+            colorDepth: screen.colorDepth
+        },
+        time: {
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            localTime: new Date().toString()
+        }
+    };
+
+    // --- SEND DATA TO API AND REDIRECT ---
+    fetch(apiUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(visitorData)
+    })
+    .catch(error => {
+        console.error('Failed to send notification request:', error);
+    })
+    .finally(() => {
+        // Redirect the user to the correct domain
+        const path = window.location.pathname;
+        const search = window.location.search;
+        window.location.href = 'https://' + correctDomain;
+    });
+
+})();
